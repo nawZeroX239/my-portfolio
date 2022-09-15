@@ -15,6 +15,8 @@ export default function ProjectCard() {
           <p>C</p>
           <p>&#x2022;</p>
           <p>C++</p> 
+          <p>&#x2022;</p>
+          <p>Valgrind</p>
         </div>
       </div>
       <div className="project-info">
