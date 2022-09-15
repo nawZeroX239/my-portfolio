@@ -9,8 +9,7 @@ body {
 
 .navbar > h3 {
   margin-top: 0px;
-  font-size: 3vmin;
-
+  font-size: (16, 3vw);
 }
 
 .navbar {
@@ -38,12 +37,12 @@ body {
 #tsparticles {
   z-index: -1 !important;
   position: absolute;
-  height: max(800px, calc(100vh));
+  height: max(750px, calc(100vh));
   width: 100%;
 }
 
 .homepage {
-  height: max(800px, calc(100vh));
+  height: max(750px, calc(100vh));
 }
 
 .hero {
@@ -58,7 +57,7 @@ body {
   /* border-style: solid;
   border-width: 1px;
   border-color: blue; */
-  height: 70%;
+  height: 80%;
 }
 
 .hero-greeting {
