@@ -9,13 +9,14 @@ body {
 
 .navbar > h3 {
   margin-top: 0px;
+  font-size: 3vmin;
+
 }
 
 .navbar {
   padding: 16px;
   display: flex;
   color: white;
-  /* height: 80px; */
   padding-left: 40px;
   padding-right: 40px;
   align-items: center;
@@ -37,19 +38,27 @@ body {
 #tsparticles {
   z-index: -1 !important;
   position: absolute;
-  height: 100vh;
+  height: max(800px, calc(100vh));
   width: 100%;
 }
 
+.homepage {
+  height: max(800px, calc(100vh));
+}
+
 .hero {
-  padding: 14px;
+  padding: 16px;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 80px);
+  /* height: calc(100vh - 10vh); */
   color: white;
+  /* border-style: solid;
+  border-width: 1px;
+  border-color: blue; */
+  height: 70%;
 }
 
 .hero-greeting {
@@ -59,17 +68,17 @@ body {
 
 .greeting-small {
   font-weight: 400;
-  font-size: 40px;
+  font-size: max(24px, 2vw);
 }
 
 .greeting-large {
   font-weight: 800;
-  font-size: 80px;
+  font-size: max(48px, 4vw);
 }
 
-.hero-text {
+.hero-intro {
   font-weight: 400;
-  font-size: 32px;
+  font-size: max(24px, 2vw);
   max-width: 860px;
 }
 

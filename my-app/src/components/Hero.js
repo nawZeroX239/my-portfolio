@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="hero-greeting">
         <h3 className="greeting-small no-margin"> HELLO WORLD. <span className="greeting-large"> I am <span style={{color:"#FCA311"}}>Naw</span>. </span>  </h3> 
       </div>
-      <p className="hero-text">
+      <p className="hero-intro">
         I am in my third year computer science student @ UW Seattle.  I am actively looking a software internship for summer 2023.
       </p>
       <div className="hero-actions">
