@@ -15,7 +15,6 @@ body {
   margin: 0px;
   display: flex;
   color: white;
-  background: #292F36;
   height: 80px;
   padding-left: 40px;
   padding-right: 40px;
@@ -43,6 +42,7 @@ body {
 }
 
 .hero {
+  padding: 14px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -133,4 +133,23 @@ body {
   text-decoration-line: underline;
   color: #000000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.project-card {
+  position: relative;
+  max-height: 400px;
+  border-style: solid;
+  border-width: 2;
+  display: flex;
+}
+
+.project-photo {
+  max-width: 100%;
+  max-height: 350px;
+}
+
+.project-tags {
+  display: flex;
+  justify-content: center;
 }
