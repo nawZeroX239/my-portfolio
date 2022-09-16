@@ -1,0 +1,26 @@
+.navbar > h3 {
+  margin-top: 0px;
+  font-size: (16, 3vw);
+}
+
+.navbar {
+  padding: 16px;
+  display: flex;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+}
+
+.navbar-margin-right {
+  margin-right: 36px;
+}
+
+.navbar-home {
+  margin-right: auto;
+}
+
+.navbar > h3:hover {
+  color: #FCA311;
+  cursor: pointer;
+}

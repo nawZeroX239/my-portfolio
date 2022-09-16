@@ -1,0 +1,51 @@
+
+ .project-card {
+  /* position: relative; */
+  /* border-width: 2; */
+  display: flex;
+  /* border-style: solid; */
+}
+
+@media screen and (max-width: 800px) {
+  .project-card {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.project-figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-photo {
+  width: 100%;
+  min-width: 420px;  
+}
+
+.project-tags {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-title {
+  /* border-style: solid; */
+  margin: 0;
+  margin-top: 10px;
+}
+
+.project-date {
+  margin: 0;
+}
+
+.project-description {
+  padding: 16px;
+}

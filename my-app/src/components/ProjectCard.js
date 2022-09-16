@@ -2,6 +2,7 @@ import React from "react"
 
 import projectPhoto from '../images/hash-table.png'
 
+import "./ProjectCard.css"
 export default function ProjectCard() {
   return (
     <div className="project-card">
