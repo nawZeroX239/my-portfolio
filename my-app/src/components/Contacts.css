@@ -1,0 +1,45 @@
+.form-container-centered {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  width: 80%;
+}
+
+.star-required {
+  color: red;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.input-text,
+.input-text-area,
+.form-submit-button {
+  font-size: 18px;
+  margin: 16px;
+}
+
+.input-text-area{
+  min-height:  256px;
+}
+
+
+.form-submit-button {
+    background: #fca311;
+    color: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    padding: 8px;
+    width:  100px;
+  }
+  
+  .form-submit-button:hover {
+    background: #f2d9b2;
+    cursor: pointer;
+}

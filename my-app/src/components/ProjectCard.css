@@ -1,9 +1,6 @@
 
  .project-card {
-  /* position: relative; */
-  /* border-width: 2; */
   display: flex;
-  /* border-style: solid; */
 }
 
 @media screen and (max-width: 800px) {
@@ -21,13 +18,21 @@
 
 .project-photo {
   width: 100%;
-  min-width: 420px;  
+  min-width: 420px;
 }
 
 .project-tags {
   display: flex;
   justify-content: center;
   gap: 10px;
+  list-style: none;
+}
+
+.project-tags  li {
+  border-radius: 10px;
+  /* border-style: solid; */
+  padding: 12px;
+  background-color: #e5e5e5;
 }
 
 .project-info {

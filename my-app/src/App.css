@@ -1,5 +1,5 @@
 .app {
-  overflow: auto;
+  overflow: hidden;
 }
 
 .app-content {

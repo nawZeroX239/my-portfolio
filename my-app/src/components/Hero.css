@@ -51,7 +51,7 @@
   cursor: pointer;
   display: inline-flex;
   font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: max(8px, min(18px, 1.6vw));
+  font-size: max(16px, min(18px, 1.6vw));
   font-weight: 600;
   justify-content: center;
   line-height: 1.25;

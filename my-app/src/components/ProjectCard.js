@@ -12,13 +12,19 @@ export default function ProjectCard() {
           className="project-photo"
           alt="project-photo"
         />
-        <div className="project-tags">
+
+        <ul className="project-tags">
+          <li>C</li>
+          <li>C++</li>
+          <li>Valgrind</li>
+        </ul>
+        {/* <div className="project-tags">
           <p>C</p>
           <p>&#x2022;</p>
           <p>C++</p> 
           <p>&#x2022;</p>
           <p>Valgrind</p>
-        </div>
+        </div> */}
       </div>
       <div className="project-info">
         <h2 className="project-title">Query Processor</h2>
