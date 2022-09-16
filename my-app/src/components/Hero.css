@@ -36,7 +36,7 @@
 
 .hero-actions {
   display: flex;
-  gap: 60px;
+  gap: 3vw;
 }
 
 .actions-bttn {
@@ -51,7 +51,7 @@
   cursor: pointer;
   display: inline-flex;
   font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
+  font-size: max(8px, min(18px, 1.6vw));
   font-weight: 600;
   justify-content: center;
   line-height: 1.25;

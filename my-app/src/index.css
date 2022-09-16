@@ -3,13 +3,6 @@ body {
   margin: 0px;
 }
 
-/* .projects,
-.academics,
-.skills,
-.contacts {
-  margin: 18px;
-} */
-
 .section-title {
   font-weight: 100;
   font-size: max(24px, 3vw);
