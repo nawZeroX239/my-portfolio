@@ -1,41 +1,26 @@
-import React from "react"
+import {React} from "react"
+import {nanoid} from "nanoid"
 
-import projectPhoto from '../images/hash-table.png'
+// import projectPhoto from '../images/hash-table.png'
 
 import "./ProjectCard.css"
-export default function ProjectCard() {
+
+export default function ProjectCard(props) {
   return (
     <div className="project-card">
       <div className="project-figure">
         <img
-          src={projectPhoto}
+          src={"../images/" + props.image}
           className="project-photo"
-          alt="project-photo"
         />
-
         <ul className="project-tags">
-          <li>C</li>
-          <li>C++</li>
-          <li>Valgrind</li>
+          {props.tools.map(tagName => <li key={nanoid()}>{tagName}</li>)}
         </ul>
-        {/* <div className="project-tags">
-          <p>C</p>
-          <p>&#x2022;</p>
-          <p>C++</p> 
-          <p>&#x2022;</p>
-          <p>Valgrind</p>
-        </div> */}
       </div>
       <div className="project-info">
-        <h2 className="project-title">Query Processor</h2>
-        <h4 className="project-date">Spring 2022</h4>
-        <p className="project-description">Query Processor is a simple command-line interface search engine written in C that
-produces a list of documents that contains all the queries and ranks the results by
-frequency. Query Processor also builds an index file that contains all the references from words
-to file paths in the form of an inverted index. Learned POSIX file system through utilizing POSIX system calls to handle files and
-traverse directories. Implemented necessary dynamics data structures such as hash table and linked list
-from scratch with zero memory leaks in Valgrind. Executed with good coding practices by writing concise comments and following
-existing code naming conventions for functions, local variables, and global variables</p>
+        <h2 className="project-title">{props.name}</h2>
+        <h4 className="project-date">{props.date}</h4>
+        <p className="project-description">{props.description}</p>
       </div>
         
     </div>

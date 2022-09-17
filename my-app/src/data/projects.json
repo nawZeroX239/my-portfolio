@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Query Processor",
+    "date": "Spring 2022",
+    "tools": [
+      "C",
+      "C++",
+      "Valgrind",
+      "Makefile"
+    ],
+    "description": "Query Processor is a simple command-line interface search engine written in C that produces a list of documents that contains all the queries and ranks the results by frequency. Query Processor also builds an index file that contains all the references from words to file paths in the form of an inverted index. Learned POSIX file system through utilizing POSIX system calls to handle files and traverse directories. Implemented necessary dynamics data structures such as hash table and linked list from scratch with zero memory leaks in Valgrind. Executed with good coding practices by writing concise comments and following existing code naming conventions for functions, local variables, and global variables",
+    "image": "hash-table.png"
+  },
+  {
+    "name": "Population Query",
+    "date": "Autumn 2021",
+    "tools": [
+      "Java",
+      "Forkjoin",
+      "ReentrantLock"
+    ],
+    "description": "Population Query is a command-line interface application where a user can retrieve the total population of a specified area. Reduced per query time from O(area) to O(1) using dynamic programming by preprocessing in the beginning.  Utilized ForkJoin framework and Java threads to divide the work to worker threads and assigned Reentrant lock to each unit of area to in order avoid data racing. Practiced writing a scientific report by collecting evidence and testing initial assumptions through amortized analysis and curve fitting.",
+    "image": "usa-map.png"
+  },
+  {
+    "name": "Campus Pathfinder",
+    "date": "Winter 2021",
+    "tools": [
+      "React Typescript",
+      "CSS",
+      "HTML",
+      "Java",
+      "Spark"
+    ],
+    "description": "Campus Paths computes and displays the shortest path between any two buildings on campus; map data is given in the form of only weighted intermediate segments between structures. Backend handles computation while the frontend is responsible for displaying the results. Implemented Dijkstra shortest path algorithm in Java while paying careful attention to java documentation and software program design techniques and patterns such as modularity, coupling, and cohesion. Wrote frontend in React with Typescript to create an intuitive and data-driven frontend user interface and added feature where the path is zoom automatically to provide a better view.",
+    "image": "campus-paths-model.png"
+  }
+]
+
+
