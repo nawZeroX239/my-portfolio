@@ -1,6 +1,6 @@
 # my-portfolio
 My portfolio website written in React. 
-It can be access at [my-portfolio](https://nawzerox239.github.io/my-portfolio/)
+It can be access at @ [this link](https://nawzerox239.github.io/my-portfolio/)
 
 **TODO**
 
