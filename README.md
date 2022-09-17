@@ -10,7 +10,7 @@ It can be access at [my-portfolio](https://nawzerox239.github.io/my-portfolio/)
 - find design skills and academics sections
 - handle contact
 - add footer
-
+- prevent particle generation when its no longer visible
 **FUTURE TODO**
 - give the remaininng webpage after hero to fixed width
 - turn the image container into slideshow
