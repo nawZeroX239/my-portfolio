@@ -1,12 +1,14 @@
-.navbar > h3 {
-  margin-top: 0px;
-  font-size: (16, 3vw);
+.navbar-link a {
+  font-size: (18, 3vw);
+  text-decoration:none;
+  color: #ffffff;
 }
 
 .navbar {
+  list-style: none;
   padding: 16px;
   display: flex;
-  color: white;
+  color: #ffffff;
   padding-left: 40px;
   padding-right: 40px;
   align-items: center;
@@ -20,8 +22,7 @@
   margin-right: auto;
 }
 
-.navbar > h3:hover {
+.navbar-link a:hover {
   color: #FCA311;
   cursor: pointer;
 }
-

@@ -10,7 +10,7 @@ export default function ProjectCard(props) {
     <div className="project-card">
       <div className="project-figure">
         <img
-          src={"../images/" + props.image}
+          src={require('../images/' + props.image)}
           className="project-photo"
         />
         <ul className="project-tags">

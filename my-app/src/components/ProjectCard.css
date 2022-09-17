@@ -11,6 +11,7 @@
 }
 
 .project-figure {
+  margin-top: 3vw;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -4,8 +4,8 @@ import "./Contacts.css"
 
 export default function Contacts() {
   return (
-    <div className="contacts">
-      <h1 className="section-title">Contacts</h1>
+    <div className="contacts" id="contact">
+      <h1 className="section-title">Contact</h1>
 
       <div className="form-container-centered">
         <form className="form-container">
